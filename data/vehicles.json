@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "veh_001",
+    "vehicleNumber": "DL01AB1234",
+    "name": "Toyota Innova - White",
+    "brand": "Toyota",
+    "model": "Innova Crysta",
+    "insuranceExpiry": "2025-12-31",
+    "assignedDriverId": "usr_driver_01",
+    "status": "Active",
+    "createdAt": "2026-01-10T08:30:00Z"
+  },
+  {
+    "id": "veh_002",
+    "vehicleNumber": "DL01AB5678",
+    "name": "Maruti Swift - Black",
+    "brand": "Maruti",
+    "model": "Swift VXi",
+    "insuranceExpiry": "2025-11-15",
+    "assignedDriverId": "usr_driver_02",
+    "status": "Active",
+    "createdAt": "2026-01-15T09:45:00Z"
+  },
+  {
+    "id": "veh_003",
+    "vehicleNumber": "DL01CD9012",
+    "name": "Hyundai Xcent - Silver",
+    "brand": "Hyundai",
+    "model": "Xcent S",
+    "insuranceExpiry": "2026-08-30",
+    "assignedDriverId": null,
+    "status": "Inactive",
+    "createdAt": "2026-02-01T10:15:00Z"
+  },
+  {
+    "id": "veh_004",
+    "vehicleNumber": "DL01EF3456",
+    "name": "Tata Nexon - Red",
+    "brand": "Tata",
+    "model": "Nexon EV",
+    "insuranceExpiry": "2026-05-20",
+    "assignedDriverId": "usr_driver_01",
+    "status": "Active",
+    "createdAt": "2026-03-05T11:20:00Z"
+  }
+]
