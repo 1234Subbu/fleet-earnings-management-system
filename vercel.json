@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "env": {
+    "NODE_ENV": "production",
+    "DATABASE_URL": "@DATABASE_URL",
+    "JWT_SECRET": "@JWT_SECRET",
+    "APP_URL": "@APP_URL"
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/server.cjs?proxy"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    }
+  ]
+}
