@@ -1,0 +1,5 @@
+{
+  "threshold": 4000,
+  "belowThreshold": 20,
+  "aboveThreshold": 30
+}

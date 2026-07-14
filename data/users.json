@@ -1,0 +1,29 @@
+[
+  {
+    "id": "usr_owner_01",
+    "username": "owner",
+    "name": "Rajesh Kumar (Owner)",
+    "role": "Owner",
+    "status": "Active",
+    "passwordHash": "$2b$10$ty6aBA7.hFAOuUd/HT0mGOzY.N.k8ali39TtnEDojzOo0g3RS8aJ.",
+    "createdAt": "2026-07-13T12:21:54.516Z"
+  },
+  {
+    "id": "usr_driver_01",
+    "username": "driver1",
+    "name": "Ramesh Singh",
+    "role": "Driver",
+    "status": "Active",
+    "passwordHash": "$2b$10$5qCmoDNkmFRYRmxThJhxf.DRC.uPKITvOuStXyWcC/LrbuW15wQgK",
+    "createdAt": "2026-07-13T12:21:54.517Z"
+  },
+  {
+    "id": "usr_driver_02",
+    "username": "driver2",
+    "name": "Suresh Yadav",
+    "role": "Driver",
+    "status": "Active",
+    "passwordHash": "$2b$10$RNAtzQyGSXUPvn6i7BtXF.t5bkIEg4XBf38y5aAW8DqikdsxkrITW",
+    "createdAt": "2026-07-13T12:21:54.517Z"
+  }
+]

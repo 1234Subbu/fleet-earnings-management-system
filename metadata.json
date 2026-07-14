@@ -1,0 +1,6 @@
+{
+  "name": "Balaji Travels",
+  "description": "A professional full-stack dashboard for fleet owners to monitor driver performance, track daily platform earnings across Uber, Ola, and Rapido, manage fuel expenses, and coordinate driver settlements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
